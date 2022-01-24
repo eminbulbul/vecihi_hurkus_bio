@@ -1,20 +1,22 @@
 body {
     background-image: url(./img/old-paper-texture-4k-paper-background-paper-textures-old-paper.jpg);
-    background-repeat: no-repeat;
     background-size: auto;
 }
 
-img {
+#vecihi {
     width: 15vw;
     display: inline-block;
     overflow: auto;
+    float: left;
+    padding: 1%;
 }
 
 #bio {
     margin: auto;
     width: 60%;
-    background-color: antiquewhite;
+    background-color: rgba(254, 255, 206, 0.7);
     border: 5px solid rgb(149, 148, 145);
+    padding: 3%;
 }
 
 p {
@@ -23,9 +25,15 @@ p {
 }
 
 h1 {
+    text-align: center;
     font-family: 'Playfair Display SC', serif;
 }
 
 #logo {
     width: 5vh;
+}
+
+#logo1 {
+    width: 5vh;
+    transform: scaleX(-1);
 }
