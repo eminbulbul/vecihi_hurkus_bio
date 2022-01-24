@@ -1,0 +1,31 @@
+body {
+    background-image: url(./img/old-paper-texture-4k-paper-background-paper-textures-old-paper.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+img {
+    width: 15vw;
+    display: inline-block;
+    overflow: auto;
+}
+
+#bio {
+    margin: auto;
+    width: 60%;
+    background-color: antiquewhite;
+    border: 5px solid rgb(149, 148, 145);
+}
+
+p {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+#logo {
+    width: 5vh;
+}
